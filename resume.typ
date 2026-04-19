@@ -13,23 +13,15 @@
 
 #show: project.with(
   theme: rgb("#0F83C0"),
-  name: "Harnoor Singh",
+  name: "Ravindra Singh",
   contact: (
     contact(
-      text: "LinkedIn://iharnoor",
-      link: "https://www.linkedin.com/in/iharnoor"
+      text: "LinkedIn: rs-tech",
+      link: "https://www.linkedin.com/in/rs-tech/"
     ),
     contact(
-      text: "Github://iharnoor",
-      link: "https://www.github.com/iharnoor"
-    ),
-    contact(
-      text: "singhinusa.dev",
-      link: "https://singhinusa.dev"
-    ),
-    contact(
-      text: "email@example.com",
-      link: "mailto:email@example.com"
+      text: "GitHub",
+      link: "https://github.com/singh-ravindra"
     )
   ),
   main: (
@@ -37,52 +29,112 @@
       title: "Experience",
       content: (
         subSection(
-          title: "Microsoft Corp.",
-          titleEnd: "Atlanta, GA",
-          subTitle: "Software Engineer",
-          subTitleEnd: "(July 2022 – April 2025)",
+          title: "Deutsche Bank",
+          titleEnd: "Cary, NC",
+          subTitle: "Director, Principal Engineer",
+          subTitleEnd: "(April 2026 – Present)",
           content: [
-            *AI / Applied ML (Microsoft Security)*
+            *Payment Data Services & PayTrack - Corporate Bank Payment Technology Platform*
             #list(
-              [Architected and implemented *AI-driven query translation (NL2KQL)* using *Vector Databases and Retrieval-Augmented Generation (RAG)* pipelines, enabling natural-language security analytics over structured telemetry.],
-              [Owned the *end-to-end design, implementation, and validation* of AI-enhanced workflows, partnering with security engineers and PMs to ensure *correctness, scalability, and production readiness*.],
-              [Led experimentation and *prompt optimization strategies* to improve query accuracy and system reliability in production security environments.],
-              [*Technologies:* LLM-based APIs, RAG Pipelines, Vector Databases, NL2KQL, Security Analytics]
-            )
-            *Mobile Engineering / Platform (Microsoft Defender)*
-            #list(
-              [Led the design and development of *end-to-end native test frameworks* for Microsoft Defender *Android and iOS*, *doubling release velocity (2× faster)* while improving regression coverage and reliability.],
-              [Built and maintained *native mobile testing infrastructure*, enabling faster iteration cycles and reducing production regressions across multiple Defender releases.],
-              [Collaborated with cross-platform mobile teams to integrate testing pipelines into CI/CD workflows.],
-              [*Technologies:* Android, iOS, Native Testing Frameworks, Automated Testing, CI/CD]
-            )
-            *Cross-Functional / Developer Advocacy*
-            #list(
-              [Partnered with the *Microsoft Designer* team as a creative collaborator, contributing to *go-to-market strategy* and producing technical marketing content, for my YouTube channel Singh in USA (*1M+ subscribers*).]
+              [Director, Principal Engineer responsible for design, code quality, SDLC, automation, and productionization of payment tracking platform features.],
+              [Designed and developed scalable microservices using Java, JEE, and Spring frameworks; migrated applications to GCP cloud platform.],
+              [Developed Scala microservices with Apache Spark for data storage in Parquet format on Hadoop; built CI/CD pipelines using TeamCity and Jenkins.],
+              [Mentored engineering teams to achieve engineering excellence following Agile and SAFE practices; led engineering leadership and innovation initiatives.],
+              [*Technologies:* Java, Python, Spring Boot, Kafka, Apache Spark, Hadoop, GCP, Docker, Kubernetes, Jenkins, TeamCity]
             )
           ],
         ),
         subSection(
-          title: "NCR (National Cash Register)",
-          titleEnd: "Atlanta, GA",
-          subTitle: "Software Engineer",
-          subTitleEnd: "(July 2020 – July 2022)",
+          title: "Deutsche Bank",
+          titleEnd: "Cary, NC",
+          subTitle: "Vice President, Lead Engineer",
+          subTitleEnd: "(January 2024 – March 2026)",
+          content: [
+            *Payment Data Services & PayTrack - Corporate Bank Payment Technology Platform*
+            #list(
+              [VP, Lead Engineer responsible for design, code quality, SDLC, automation, and productionization of payment tracking platform features.],
+              [Designed and developed scalable microservices using Java, JEE, and Spring frameworks; migrated applications to GCP cloud platform.],
+              [Developed Scala microservices with Apache Spark for data storage in Parquet format on Hadoop; built CI/CD pipelines using TeamCity and Jenkins.],
+              [Mentored engineering teams to achieve engineering excellence following Agile and SAFE practices; led engineering leadership and innovation initiatives.],
+              [*Technologies:* Java, Python, Spring Boot, Kafka, Apache Spark, Hadoop, GCP, Docker, Kubernetes, Jenkins, TeamCity]
+            )
+          ],
+        ),
+        subSection(
+          title: "Deutsche Bank",
+          titleEnd: "Cary, NC",
+          subTitle: "Vice President, Engineering Lead, Global Enterprise Engineer",
+          subTitleEnd: "(December 2018 – December 2023)",
+          content: [
+            *Market Risk Management – RiskFinder*
+            #list(
+              [VP Engineering Lead for Market Risk team; responsible for design, code quality, SDLC, automation, and productionization of features.],
+              [RiskFinder processes over 600 billion scenario points daily, providing dynamic aggregation and risk metrics (VAR, Expected potential exposure, Potential stress).],
+              [Architected and developed scalable microservices using Java, Spring, and migrated applications to GCP cloud infrastructure.],
+              [Developed Scala microservices with Apache Spark and Hadoop; implemented CI/CD pipelines using Jenkins and TeamCity.],
+              [Led teams in Agile/SAFE practices and mentored engineers; took ownership of engineering excellence and innovation.],
+              [*Technologies:* Java, Scala, Spring Boot, Kafka, Apache Spark, Hadoop, GCP, Docker, Kubernetes, MyBatis, PostgreSQL]
+            )
+          ],
+        ),
+        subSection(
+          title: "Fidelity Investments",
+          titleEnd: "Durham, NC",
+          subTitle: "Technology Lead",
+          subTitleEnd: "(September 2017 – December 2018)",
           content: list(
-            [Contributed to NCR Silver POS Android application, working within a *1M+ LOC* codebase spanning *19 modules* and serving hundreds of thousands of global users.],
-            [Served as *Atlanta team lead and Scrum Master*, coordinating execution for *11 engineers and QA members*, driving sprint planning, delivery, and cross-team alignment.],
-            [Engineered production features using *Dagger2, RxJava, Kotlin Multiplatform, and C++*, including cross-platform shared libraries for business-critical workflows.],
-            [Designed and implemented instrumentation and unit testing frameworks using *Espresso, Mockito, and JUnit*, improving stability and reducing post-release defects.],
-            [Acted as a technical interviewer and campus recruiter, representing NCR at university engineering fairs and contributing to intern hiring pipelines.],
-            [*Technologies:* Android, Kotlin, RxJava, Dagger2, C++, Espresso, Mockito, JUnit]
+            [Built high-performing services for stock plan services using latest open-source technology stack; migrated legacy applications to distributed architecture.],
+            [Architected solutions using Domain-Driven Design (DDD) methodology; translated business requirements into technical solutions.],
+            [Developed RESTful services and microservices; implemented event-based messaging using Apache ActiveMQ.],
+            [Integrated services using Docker and Jenkins; wrote functional test cases using Cucumber framework.],
+            [Involved in POCs for AWS migration and Oracle to PostgreSQL database migration.],
+            [*Technologies:* Java 8, Spring Boot, Jersey, MyBatis, ActiveMQ, Cucumber, Docker, Jenkins, PostgreSQL]
           ),
         ),
         subSection(
-          title: "Panasonic Automotive",
-          titleEnd: "Peachtree City, GA",
-          subTitle: "Systems Engineering Intern",
-          subTitleEnd: "(May 2017 – May 2018)",
+          title: "Fidelity Investments",
+          titleEnd: "Dublin, Ireland",
+          subTitle: "Technology Lead",
+          subTitleEnd: "(February 2015 – August 2017)",
           content: list(
-            [Built an Android-based infotainment simulation app replicating Panasonic's in-car entertainment system, reducing developer onboarding and use-case understanding time by ~2×.]
+            [Developed Spring-based RESTful services and microservices using Domain-Driven Design (DDD) methodology for stock plan services.],
+            [Implemented event-based messaging flows using Apache ActiveMQ; integrated services using Docker and Jenkins.],
+            [Automated functional test cases using Cucumber framework; performed code reviews and maintained code quality standards.],
+            [*Technologies:* Java 8, Spring Data, Jersey, MyBatis, ActiveMQ, Cucumber, Docker, Jenkins]
+          ),
+        ),
+        subSection(
+          title: "Fidelity Investments",
+          titleEnd: "Westlake, TX",
+          subTitle: "Technology Lead",
+          subTitleEnd: "(January 2011 – January 2015)",
+          content: list(
+            [Tech Lead and SME for trading application; involved in POCs, solutioning, design, development, code review, and testing.],
+            [Developed Spring-based web applications and RESTful webservices for fund rebalancing and asset allocation.],
+            [Maintained Apache-based AXIS webservice with 2-way SSL authentication; migrated applications to cloud-based PaaS infrastructure.],
+            [Created BIGIP/3DNS configurations; deployed applications on VMware tcServer and Apache Tomcat.],
+            [*Technologies:* Java 7, Spring 2.8.1, AXIS 1.6.2, PolarLake, Oracle, Jenkins, Maven]
+          ),
+        ),
+        subSection(
+          title: "Fidelity Investments",
+          titleEnd: "Marlborough, USA",
+          subTitle: "Technology Analyst",
+          subTitleEnd: "(January 2009 – December 2010)",
+          content: list(
+            [Developed user interfaces for front-end validation; wrote PL/SQL queries meeting functional requirements.],
+            [Assisted infrastructure teams in deploying applications to production environments.],
+            [*Technologies:* Java, PL/SQL, Oracle 10g, ClearCase]
+          ),
+        ),
+        subSection(
+          title: "Fidelity Investments",
+          titleEnd: "Bangalore, India",
+          subTitle: "Software Engineer",
+          subTitleEnd: "(May 2006 – December 2008)",
+          content: list(
+            [Developed applications for defined benefits calculation engine in Core Java; wrote unit tests using JUnit.],
+            [*Technologies:* Java, JUnit, Oracle 9i, PL/SQL]
           ),
         ),
       ),
@@ -91,14 +143,98 @@
       title: "Education",
       content: (
         subSection(
-          title: "Georgia State University",
+          title: "Georgia Tech",
           titleEnd: "Atlanta, GA",
-          subTitle: "BS & MS in Computer Science",
-          subTitleEnd: "(2016 – 2020)",
+          subTitle: "MS in Computer Science (Online)",
+          subTitleEnd: "(May 2023)",
           content: [
-            *summa cum laude* | GPA: 4.0\
-            President's List, Honors College
+            Specialization in Interactive Intelligence and Artificial Intelligence
           ],
+        ),
+        subSection(
+          title: "Liverpool John Moores University",
+          titleEnd: "UK",
+          subTitle: "MS in Computer Science (Online)",
+          subTitleEnd: "(April 2021)",
+          content: [
+            Specialization in Artificial Intelligence
+          ],
+        ),
+        subSection(
+          title: "Dr. A.P.J. Abdul Kalam Technical University",
+          titleEnd: "Lucknow, India",
+          subTitle: "Bachelor of Technology in Computer Science",
+          subTitleEnd: "",
+          content: [
+          ],
+        ),
+      ),
+    ),
+    section(
+      title: "Technical Skills",
+      content: (
+        subSection(
+          title: "Programming Languages",
+          titleEnd: "",
+          subTitle: "",
+          subTitleEnd: "",
+          content: [
+            Java, JEE, Python, Scala, SQL, PL/SQL, Unix Shell Script
+          ],
+        ),
+        subSection(
+          title: "Frameworks & Technologies",
+          titleEnd: "",
+          subTitle: "",
+          subTitleEnd: "",
+          content: [
+            Spring Boot, Spring Cloud, Spring Data, Spring Security, Spring REST, Spring MVC, Apache Kafka, Apache ActiveMQ, Apache Camel, ESB (WSO2, Bloomberg PolarLake)
+          ],
+        ),
+        subSection(
+          title: "Cloud & DevOps",
+          titleEnd: "",
+          subTitle: "",
+          subTitleEnd: "",
+          content: [
+            GCP, OpenShift, Docker, Kubernetes, Jenkins, TeamCity, Ansible
+          ],
+        ),
+        subSection(
+          title: "Databases",
+          titleEnd: "",
+          subTitle: "",
+          subTitleEnd: "",
+          content: [
+            Oracle 11g/12c, PostgreSQL, DB2, Apache Cassandra, Hadoop
+          ],
+        ),
+        subSection(
+          title: "Big Data & ML",
+          titleEnd: "",
+          subTitle: "",
+          subTitleEnd: "",
+          content: [
+            Apache Spark, HDFS, Hive, Parquet, MapReduce, Python ML frameworks, NLP, Generative AI
+          ],
+        ),
+      ),
+    ),
+    section(
+      title: "Certifications & Achievements",
+      content: (
+        subSection(
+          title: "",
+          titleEnd: "",
+          subTitle: "",
+          subTitleEnd: "",
+          content: list(
+            [Global Enterprise Engineer, June 2022],
+            [Professional Scrum Master I (PSM-I), Scrum.org, June 2016],
+            [Certified Java EE Web Services Professional 302a],
+            [Mentor at Hackathon 2021 (Pearl Hacks) and Hack NC 2020],
+            [Lead for Deutsche Bank's Georgia Tech School Graduate program campus hiring]
+          ),
         ),
       ),
     )
